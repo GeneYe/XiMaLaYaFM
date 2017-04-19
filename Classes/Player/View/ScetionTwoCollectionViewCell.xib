@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ScetionTwoCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="187"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="187"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text" translatesAutoresizingMaskIntoConstraints="NO" id="JyD-la-zdb" userLabel="主播头像">
+                        <rect key="frame" x="10" y="15" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="3VI-ae-5kJ"/>
+                            <constraint firstAttribute="height" constant="36" id="RQr-40-Ers"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="丑事播报2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCJ-gv-0WT" userLabel="主播名">
+                        <rect key="frame" x="54" y="15" width="225" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="K8a-bF-Sym"/>
+                            <constraint firstAttribute="width" constant="225" id="VAG-4g-Xqm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29.3万人阅读" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7aS-5f-Dj7" userLabel="订阅label">
+                        <rect key="frame" x="54" y="36" width="225" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="225" id="Zdi-ek-4iF"/>
+                            <constraint firstAttribute="height" constant="10" id="f7f-Yy-UGw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="丑事播报之重中国吃文化--佳琪（2016.11.13） 【同程旅游冠名播出】" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-Yb-M6W" userLabel="标题">
+                        <rect key="frame" x="8" y="68" width="359" height="75.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="77" id="Z7m-ou-Vps"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1120.9万次播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1v-Zk-Nbj" userLabel="播放次数">
+                        <rect key="frame" x="8" y="151.5" width="86" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="86" id="jT1-bL-tZu"/>
+                            <constraint firstAttribute="height" constant="21" id="kHq-PP-7ZO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11-13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLH-Ve-nE3" userLabel="时间">
+                        <rect key="frame" x="109" y="151.5" width="41" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="41" id="5ya-Ni-PgF"/>
+                            <constraint firstAttribute="height" constant="21" id="a04-Kd-xUz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7aS-5f-Dj7" firstAttribute="top" secondItem="GCJ-gv-0WT" secondAttribute="bottom" constant="5" id="9qp-oW-TzB"/>
+                <constraint firstItem="GCJ-gv-0WT" firstAttribute="top" secondItem="JyD-la-zdb" secondAttribute="top" id="BDo-8H-VDy"/>
+                <constraint firstItem="B1v-Zk-Nbj" firstAttribute="leading" secondItem="ge7-Yb-M6W" secondAttribute="leading" id="Wq6-8p-dve"/>
+                <constraint firstItem="HLH-Ve-nE3" firstAttribute="top" secondItem="B1v-Zk-Nbj" secondAttribute="top" id="dqc-Hn-BnT"/>
+                <constraint firstItem="JyD-la-zdb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="g7Z-83-MpF"/>
+                <constraint firstItem="7aS-5f-Dj7" firstAttribute="leading" secondItem="GCJ-gv-0WT" secondAttribute="leading" id="h1x-gZ-4zn"/>
+                <constraint firstItem="ge7-Yb-M6W" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="jeU-cB-P9X"/>
+                <constraint firstItem="B1v-Zk-Nbj" firstAttribute="top" secondItem="ge7-Yb-M6W" secondAttribute="bottom" constant="8" id="kvI-fi-5w9"/>
+                <constraint firstItem="HLH-Ve-nE3" firstAttribute="leading" secondItem="B1v-Zk-Nbj" secondAttribute="trailing" constant="15" id="l2s-hM-K3O"/>
+                <constraint firstAttribute="trailing" secondItem="ge7-Yb-M6W" secondAttribute="trailing" constant="8" id="o8p-oo-JUi"/>
+                <constraint firstItem="JyD-la-zdb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="vLP-oP-2QK"/>
+                <constraint firstItem="GCJ-gv-0WT" firstAttribute="leading" secondItem="JyD-la-zdb" secondAttribute="trailing" constant="8" id="vfQ-NY-mVL"/>
+                <constraint firstItem="ge7-Yb-M6W" firstAttribute="top" secondItem="JyD-la-zdb" secondAttribute="bottom" constant="17" id="yOG-fd-SDg"/>
+            </constraints>
+            <size key="customSize" width="375" height="187"/>
+            <connections>
+                <outlet property="albumInfoTitle" destination="GCJ-gv-0WT" id="UEL-HE-gg8"/>
+                <outlet property="albumSubscribesLabel" destination="7aS-5f-Dj7" id="Z5y-P4-joh"/>
+                <outlet property="coverImageView" destination="JyD-la-zdb" id="X2I-Fb-uZZ"/>
+                <outlet property="trackInfoTitle" destination="ge7-Yb-M6W" id="V4Y-DJ-qUB"/>
+                <outlet property="upDataDateLabel" destination="HLH-Ve-nE3" id="hCG-q2-qaL"/>
+            </connections>
+            <point key="canvasLocation" x="-55.5" y="-145.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="text" width="690" height="423"/>
+    </resources>
+</document>

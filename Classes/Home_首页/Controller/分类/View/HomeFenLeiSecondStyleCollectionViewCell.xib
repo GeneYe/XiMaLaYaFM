@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeFenLeiSecondStyleCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="findradio_bg" translatesAutoresizingMaskIntoConstraints="NO" id="SFi-n5-hdx" userLabel="背景图片框">
+                        <rect key="frame" x="10" y="10" width="59" height="59"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="59" id="S0N-ZF-8NC"/>
+                            <constraint firstAttribute="height" constant="59" id="tyr-23-hdl"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nJF-uK-b0D" userLabel="背景图片">
+                        <rect key="frame" x="12" y="12" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="Kxo-9e-UbW"/>
+                            <constraint firstAttribute="width" constant="55" id="kLs-Wd-8TT"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newAlbum_end" translatesAutoresizingMaskIntoConstraints="NO" id="Aoj-mH-P6h" userLabel="完本">
+                        <rect key="frame" x="12" y="12" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="3ao-nF-2Xg"/>
+                            <constraint firstAttribute="width" constant="33" id="jBu-qH-Fju"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="《最后一个使徒》尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I94-7Q-GVQ" userLabel="标题">
+                        <rect key="frame" x="79" y="12" width="241" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="34" id="Rkj-cn-GNI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000集" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5Q-wx-mDe">
+                        <rect key="frame" x="179" y="92.5" width="60" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="BvM-g1-tSY"/>
+                            <constraint firstAttribute="width" constant="60" id="d0K-IJ-E90"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛尼玛" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIy-We-aUj" userLabel="内容简介">
+                        <rect key="frame" x="79" y="55.5" width="241" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="31" id="DSC-zX-EDG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album_play" translatesAutoresizingMaskIntoConstraints="NO" id="qa1-PG-zJH" userLabel="播放按钮">
+                        <rect key="frame" x="79" y="94.5" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="I9a-2w-AXS"/>
+                            <constraint firstAttribute="height" constant="10" id="htP-Ys-oQQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11111.1万" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3n0-Am-4d5" userLabel="播放量">
+                        <rect key="frame" x="94" y="92.5" width="60" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="GWV-S5-fkm"/>
+                            <constraint firstAttribute="width" constant="60" id="pYX-b3-JIO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album_tracks" translatesAutoresizingMaskIntoConstraints="NO" id="D4k-FT-vAP" userLabel="集数">
+                        <rect key="frame" x="164" y="94.5" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="cBa-hB-6Dh"/>
+                            <constraint firstAttribute="height" constant="10" id="zTc-1j-Efl"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="SFi-n5-hdx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="2hm-4k-fHc"/>
+                <constraint firstItem="D4k-FT-vAP" firstAttribute="leading" secondItem="3n0-Am-4d5" secondAttribute="trailing" constant="10" id="9QL-Km-BKu"/>
+                <constraint firstItem="3n0-Am-4d5" firstAttribute="leading" secondItem="qa1-PG-zJH" secondAttribute="trailing" constant="5" id="F8E-Ce-dhu"/>
+                <constraint firstItem="kIy-We-aUj" firstAttribute="top" secondItem="I94-7Q-GVQ" secondAttribute="bottom" constant="10" id="H89-v6-rUi"/>
+                <constraint firstAttribute="trailing" secondItem="I94-7Q-GVQ" secondAttribute="trailing" constant="20" id="Kn7-oj-jnV"/>
+                <constraint firstItem="nJF-uK-b0D" firstAttribute="leading" secondItem="SFi-n5-hdx" secondAttribute="leading" constant="2" id="QYe-6S-FTY"/>
+                <constraint firstItem="O5Q-wx-mDe" firstAttribute="leading" secondItem="D4k-FT-vAP" secondAttribute="trailing" constant="5" id="YaB-9T-cWO"/>
+                <constraint firstItem="D4k-FT-vAP" firstAttribute="centerY" secondItem="qa1-PG-zJH" secondAttribute="centerY" id="aMz-G1-eVe"/>
+                <constraint firstAttribute="trailing" secondItem="kIy-We-aUj" secondAttribute="trailing" constant="20" id="b3p-z9-7cU"/>
+                <constraint firstItem="Aoj-mH-P6h" firstAttribute="leading" secondItem="nJF-uK-b0D" secondAttribute="leading" id="fnu-BO-Gk5"/>
+                <constraint firstItem="I94-7Q-GVQ" firstAttribute="top" secondItem="nJF-uK-b0D" secondAttribute="top" id="gUS-Nn-aaO"/>
+                <constraint firstItem="kIy-We-aUj" firstAttribute="leading" secondItem="SFi-n5-hdx" secondAttribute="trailing" constant="10" id="jxk-l0-wlk"/>
+                <constraint firstItem="nJF-uK-b0D" firstAttribute="top" secondItem="SFi-n5-hdx" secondAttribute="top" constant="2" id="kCJ-uM-Tnr"/>
+                <constraint firstItem="qa1-PG-zJH" firstAttribute="top" secondItem="kIy-We-aUj" secondAttribute="bottom" constant="10" id="kqh-xP-9am"/>
+                <constraint firstItem="O5Q-wx-mDe" firstAttribute="centerY" secondItem="qa1-PG-zJH" secondAttribute="centerY" id="lFU-yB-uE0"/>
+                <constraint firstItem="SFi-n5-hdx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="mRR-Ai-jFO"/>
+                <constraint firstItem="3n0-Am-4d5" firstAttribute="centerY" secondItem="qa1-PG-zJH" secondAttribute="centerY" id="qvX-0N-zqJ"/>
+                <constraint firstItem="I94-7Q-GVQ" firstAttribute="leading" secondItem="SFi-n5-hdx" secondAttribute="trailing" constant="10" id="uPU-HD-BzE"/>
+                <constraint firstItem="Aoj-mH-P6h" firstAttribute="top" secondItem="nJF-uK-b0D" secondAttribute="top" id="vP0-Mu-AGO"/>
+                <constraint firstItem="qa1-PG-zJH" firstAttribute="leading" secondItem="kIy-We-aUj" secondAttribute="leading" id="yV8-kC-B4I"/>
+            </constraints>
+            <connections>
+                <outlet property="bgImgView" destination="nJF-uK-b0D" id="D1R-4f-xFH"/>
+                <outlet property="boFangLiang" destination="3n0-Am-4d5" id="mqF-Kx-DgK"/>
+                <outlet property="contentStringLabel" destination="kIy-We-aUj" id="jC8-Ix-Q6Z"/>
+                <outlet property="jiShu" destination="O5Q-wx-mDe" id="vV5-NB-VP4"/>
+                <outlet property="titleStringLabel" destination="I94-7Q-GVQ" id="rYv-ha-Ozm"/>
+                <outlet property="wanBen" destination="Aoj-mH-P6h" id="BZj-Hm-CBQ"/>
+            </connections>
+            <point key="canvasLocation" x="536" y="151"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="album_play" width="12" height="12"/>
+        <image name="album_tracks" width="10" height="10"/>
+        <image name="findradio_bg" width="93" height="93"/>
+        <image name="newAlbum_end" width="40" height="40"/>
+    </resources>
+</document>

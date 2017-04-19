@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  哔哩哔哩demo2
+//
+//  Created by Gene_Ye on 16/10/24.
+//  Copyright © 2016年 Gene. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//#ifdef __OBJC__ ＃endif 只会拷贝到OC源代码文件中，不会拷贝到其他源代码文件中
+#ifdef __OBJC__
+
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+
+#define TopPicHeight Screen_Width/2.13
+/*颜色*/
+#define GYColorA(r,g,b,a) [UIColor colorWithRed:(r/255.0) green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define GYColor(r,g,b) GYColorA((r),(g),(b),255)
+#define GYColorRandom GYColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+
+#define GYGrayColor(v) GYColor((v),(v),(v))
+#define GYCommonBgColor GYColor(255, 88, 51)
+#define ViewControllerBlackgroundColor GYColor(241, 241, 241)
+
+#define GYBgColor GYColor(236, 236, 236)
+
+#define SecondColor GYColor(247,142,0);
+
+#define ThridColor GYColor(157,188,12);
+
+
+#define ScrollPicHeight Screen_Width/3.1
+
+#import "UIView+UIViewExtension.h"
+
+/*日志*/
+#ifdef DEBUG
+
+#define GYLog(...)NSLog(__VA_ARGS__)
+#else
+#define GYLog(...)
+#endif
+
+
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
